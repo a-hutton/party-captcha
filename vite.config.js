@@ -1,6 +1,6 @@
 module.exports = {
     root: "src",
     build: {
-        outDir: "/public",
+        outDir: "../public",
     },
 };
