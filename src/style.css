@@ -7,9 +7,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 main {
     position: relative;
-    background-color: red;
+    background-color: white;
     width: 400px;
     height: 582px;
     margin: auto;
@@ -126,4 +130,18 @@ hr {
 
 #verify:hover {
     cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
 }
